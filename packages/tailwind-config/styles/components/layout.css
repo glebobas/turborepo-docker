@@ -1,0 +1,26 @@
+@utility container {
+	margin-inline: auto;
+	padding-inline: 1rem;
+
+	@media (min-width: 1280px) {
+		padding-inline: 1.5rem;
+	}
+}
+
+@layer components {
+	.section {
+		@apply overflow-x-hidden py-5 md:py-20;
+	}
+
+	.section-sm {
+		@apply overflow-x-hidden py-5 md:py-10;
+	}
+
+	.section-hero {
+		@apply overflow-x-hidden pt-30 pb-5 md:pt-40 md:pb-20;
+	}
+
+	.grid-container {
+		@apply grid grid-cols-3 gap-6 max-lg:grid-cols-2 max-md:grid-cols-1;
+	}
+}

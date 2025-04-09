@@ -1,0 +1,14 @@
+@theme {
+	--font-fustat: var(--font-fustat);
+}
+
+@theme {
+	--color-background: var(--color-gray-200);
+	--color-foreground: var(--color-gray-950);
+	--color-primary: var(--color-gray-950);
+	--color-primary-foreground: var(--color-neutral-300);
+	--color-secondary: var(--color-neutral-500);
+	--color-secondary-foreground: var(--color-white);
+	--color-destructive: var(--color-red-600);
+	--color-destructive-foreground: var(--color-red-600);
+}

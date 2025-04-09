@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  reactStrictMode: true,
+  transpilePackages: ["@repo/ui", "@repo/tailwind-config"],
+  output: "standalone",
+};
 
 export default nextConfig;

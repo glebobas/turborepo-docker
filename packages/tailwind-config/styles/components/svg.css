@@ -1,0 +1,5 @@
+@layer components {
+	.svg-child {
+		@apply [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg]:transition-colors [&_svg:not([class*='size-'])]:size-4;
+	}
+}
